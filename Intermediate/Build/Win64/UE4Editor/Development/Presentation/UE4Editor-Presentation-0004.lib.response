@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Presentation-0004.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\PresentationEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\Presentation.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\PresentationGameModeBase.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\SampleCharacter.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\Presentation.init.gen.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\PresentationGameModeBase.gen.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\SampleCharacter.gen.cpp.obj"
+"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\Default.rc2.res"
+/OUT:"C:\Users\Liuyc\Documents\Unreal Projects\Presentation\Intermediate\Build\Win64\UE4Editor\Development\Presentation\UE4Editor-Presentation-0004.lib"
+/INCLUDE:IMPLEMENT_MODULE_Presentation

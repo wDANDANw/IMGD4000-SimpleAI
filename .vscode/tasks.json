@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Presentation Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win32",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"Win64",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Presentation IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "Presentation IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Presentation",
+				"IOS",
+				"Test",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PresentationEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PresentationEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PresentationEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		},
+		{
+			"label": "PresentationEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PresentationEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Liuyc\\Documents\\Unreal Projects\\Presentation\\Presentation.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Unreal\\UE_4.24"
+			}
+		}
+	]
+}
